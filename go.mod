@@ -8,7 +8,7 @@ require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
 	github.com/SmartBFT-Go/consensus v0.0.0-20230430133422-4dca5ba006ee
 	github.com/VictoriaMetrics/fastcache v1.9.0
-	github.com/bits-and-blooms/bitset v1.2.1
+	github.com/bits-and-blooms/bitset v1.7.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fsouza/go-dockerclient v1.7.3
@@ -28,10 +28,10 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.1
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/cobra v1.5.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.0
-	github.com/stretchr/testify v1.8.1 // includes ErrorContains
+	github.com/stretchr/testify v1.8.2 // includes ErrorContains
 	github.com/sykesm/zap-logfmt v0.0.4
 	github.com/syndtr/goleveldb v1.0.1-0.20210305035536-64b5b1c73954
 	github.com/tedsuo/ifrit v0.0.0-20220120221754-dd274de71113
@@ -39,8 +39,8 @@ require (
 	go.etcd.io/etcd/raft/v3 v3.5.1
 	go.etcd.io/etcd/server/v3 v3.5.1
 	go.uber.org/zap v1.19.0
-	golang.org/x/crypto v0.1.0
-	golang.org/x/tools v0.1.12
+	golang.org/x/crypto v0.10.0
+	golang.org/x/tools v0.6.0
 	google.golang.org/grpc v1.47.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
@@ -57,7 +57,8 @@ require (
 	github.com/alecthomas/units v0.0.0-20210912230133-d1bdfacee922 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/consensys/gnark-crypto v0.6.0 // indirect
+	github.com/consensys/bavard v0.1.13 // indirect
+	github.com/consensys/gnark-crypto v0.12.1 // indirect
 	github.com/containerd/cgroups v1.0.3 // indirect
 	github.com/containerd/containerd v1.5.18 // indirect
 	github.com/docker/docker v20.10.24+incompatible // indirect
@@ -102,14 +103,15 @@ require (
 	go.opencensus.io v0.22.4 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sys v0.9.0 // indirect
+	golang.org/x/text v0.10.0 // indirect
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
 	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
 replace github.com/cespare/xxhash/v2 => github.com/cespare/xxhash/v2 v2.1.2 // fix for Go 1.17 in github.com/prometheus/client_golang dependency without updating protobuf
